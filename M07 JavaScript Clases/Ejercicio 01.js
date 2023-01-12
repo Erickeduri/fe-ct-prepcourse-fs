@@ -40,7 +40,7 @@ function agregarStringInvertida() {
    // [PISTA]: necesitarás utilizar el objeto "this".
    var nuevaS = '';
    String.prototype.reverse = function(){
-      for(var i = this.length - 1 ; i >= 0 ; i--){
+      for(var i = this.length - 1  ; i >= 0 ; i--){
          
          nuevaS =  nuevaS + this.charAt(i); 
       }
